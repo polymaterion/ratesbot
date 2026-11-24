@@ -150,10 +150,7 @@ def get_rates_message() -> str:
         f"Курсы валют {date_line}\n\n"
         f"1 USD = {format_number(usd_rub, 2)} RUB\n"
         f"1 USD = {format_number(usd_tmt, 4)} TMT\n"
-        f"1 TMT = {format_number(tmt_rub, 4)} RUB\n\n"
-        "USD/RUB — курс Банка России.\n"
-        "USD/TMT — установлен администратором.\n"
-        "TMT/RUB — расчётный курс."
+        f"1 TMT = {format_number(tmt_rub, 4)} RUB"
     )
 
 
